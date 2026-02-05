@@ -1,0 +1,43 @@
+node_modules
+# Ignore JavaScript files (useful for mixed Go/JavaScript projects)
+*.js
+# Ignore dist folder
+dist/
+dist/**/*
+# Ignore environment variable files
+.env
+.env.local
+.env.*.local
+# Ignore log files
+logs
+*.log
+logs/**/*
+# Ignore build output
+build/
+build/**/*
+# Ignore coverage reports
+coverage/
+coverage/**/*
+# Ignore IDE specific files
+.vscode/
+.idea/
+# Ignore OS generated files
+.DS_Store
+Thumbs.db
+# Ignore TypeScript declaration files
+*.d.ts
+# Ignore temporary files
+*.tmp
+*.temp
+# Ignore compiled source maps
+*.js.map
+# Ignore package lock files
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+# Ignore test output
+test-output/
+test-output/**/*
+# Ignore Cypress videos and screenshots
+cypress/videos/
+cypress/screenshots/
