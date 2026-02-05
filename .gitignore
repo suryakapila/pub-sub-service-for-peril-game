@@ -41,3 +41,6 @@ test-output/**/*
 # Ignore Cypress videos and screenshots
 cypress/videos/
 cypress/screenshots/
+
+#Ignore :zone.identifier files created by Windowse.g. when downloading files from the internet
+*.zone.identifier
