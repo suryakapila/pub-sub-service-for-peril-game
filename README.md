@@ -2,6 +2,8 @@
 
 A multiplayer strategy game (inspired by Risk) built on an **event-driven pub/sub architecture** using **RabbitMQ** as the message broker. Players spawn armies, move them across continents, and fight wars -- all coordinated through asynchronous message passing.
 
+Built as part of the [Learn Pub/Sub](https://www.boot.dev) course on [Boot.dev](https://www.boot.dev).
+
 ## Architecture
 
 ```
